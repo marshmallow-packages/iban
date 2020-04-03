@@ -41,3 +41,6 @@ Call `\Marshmallow\IBAN\IBAN::getBic($iban)` to get the BIC code for this iban n
     "account_number" => "317745646"
 ]
 ```
+
+## Tests during development
+`php artisan test packages/marshmallow/iban`
