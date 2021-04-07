@@ -1,7 +1,11 @@
 {
     "name": "marshmallow/iban",
     "description": "With this package you will be able to check iban numbers and get BIC information.",
-    "keywords": ["marshmallow", "iban", "bic"],
+    "keywords": [
+        "marshmallow",
+        "iban",
+        "bic"
+    ],
     "homepage": "https://github.com/Marshmallow-Development/",
     "type": "library",
     "license": "MIT",
@@ -18,12 +22,16 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0"
+        "php": "^7.0|^8.0"
     },
     "autoload": {
-        "psr-4": {"Marshmallow\\IBAN\\": "src"}
+        "psr-4": {
+            "Marshmallow\\IBAN\\": "src"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"Marshmallow\\IBAN\\": "src"}
+        "psr-4": {
+            "Marshmallow\\IBAN\\": "src"
+        }
     }
 }
